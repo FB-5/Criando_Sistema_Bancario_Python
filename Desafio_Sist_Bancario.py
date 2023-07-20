@@ -42,7 +42,7 @@ while True:
             extrato += f"Saque realizado: R$ {saque:.2f}\n"
             qt_saque +=1
         else:
-            print("Não foi possivel realizar saque, valor inválido!!")
+            print("Valor inválido!! Não foi possivel realizar saque.")
         
     elif opcao == "3":
         print("###### EXTRATO ######")
